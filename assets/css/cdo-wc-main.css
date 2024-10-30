@@ -1,0 +1,21 @@
+.widefat .column-wc_actions a.button.wc-action-button.wc-action-button-clone {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.widefat .column-wc_actions a.button.wc-action-button.wc-action-button-clone::after {
+	content: '';
+	background-size: 21px 21px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0;
+	width: 21px;
+	height: 21px;
+	top: unset;
+	left: unset;
+}
+
+.widefat .column-wc_actions a.button.wc-action-button.wc-action-button-clone::after {
+	background-image: url("data:image/svg+xml,%3Csvg width='800' height='800' viewBox='0 0 21 21' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%232271B1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18.5 12.5v-8a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2'/%3E%3Cpath d='M6.5 6.503h-2a2 2 0 0 0-2 2V16.5a2 2 0 0 0 2 2h.003l8-.014a2 2 0 0 0 1.997-2v-1.983m-2-9.003v6m3-3h-6'/%3E%3C/g%3E%3C/svg%3E");
+}

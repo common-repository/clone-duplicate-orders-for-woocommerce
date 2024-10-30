@@ -1,0 +1,93 @@
+# Copyright (C) 2024 YMMV LLC
+# This file is distributed under the GPL-2.0-or-later.
+#
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2024-10-26T15:37:59+00:00\n"
+"Project-Id-Version: Clone / Duplicate Orders for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://www.ymmv.co\n"
+"X-Domain: clone-duplicate-orders-for-woocommerce\n"
+"X-Generator: WP-CLI 2.11.0\n"
+
+#. Plugin Name of the plugin
+#: clone-duplicate-orders-for-woocommerce.php
+#: includes/class-cdo-wc-cloner.php:391
+msgid "Clone / Duplicate Orders for WooCommerce"
+msgstr "Clone / Duplicate Orders for WooCommerce"
+
+#. Description of the plugin
+#: clone-duplicate-orders-for-woocommerce.php
+msgid "Quickly and easily clone/duplicate any order in your WooCommerce store."
+msgstr "আপনার WooCommerce স্টোরে দ্রুত এবং সহজে যেকোনো অর্ডার ক্লোন/ডুপ্লিকেট করুন।"
+
+#. Author of the plugin
+#: clone-duplicate-orders-for-woocommerce.php
+msgid "YMMV LLC"
+msgstr "YMMV LLC"
+
+#. Author URI of the plugin
+#: clone-duplicate-orders-for-woocommerce.php
+msgid "https://www.ymmv.co"
+msgstr "https://www.ymmv.co"
+
+#: includes/class-cdo-wc-cloner.php:105
+#: includes/class-cdo-wc-cloner.php:142
+msgid "Clone Order"
+msgstr "অর্ডার ক্লোন করুন"
+
+#: includes/class-cdo-wc-cloner.php:109
+msgid "Clone is not available for this order."
+msgstr "এই অর্ডারের জন্য ক্লোন উপলব্ধ নয়।"
+
+#: includes/class-cdo-wc-cloner.php:128
+msgid "Clone order"
+msgstr "অর্ডার ক্লোন করুন"
+
+#: includes/class-cdo-wc-cloner.php:159
+msgid "This order is already being cloned, and we have detected multiple clicks. You will be redirected to the orders page shortly."
+msgstr "এই অর্ডারটি ইতিমধ্যে ক্লোন করা হচ্ছে, এবং আমরা একাধিক ক্লিক সনাক্ত করেছি। আপনাকে শীঘ্রই অর্ডার পৃষ্ঠায় পুনঃনির্দেশিত করা হবে।"
+
+#. translators: %1$ is number of seconds. %2$ is the word here that links to orders index.
+#: includes/class-cdo-wc-cloner.php:161
+msgid "If you are not redirected within %1$d seconds, click %2$s."
+msgstr "যদি আপনি %1$d সেকেন্ডের মধ্যে পুনঃনির্দেশিত না হন, তাহলে %2$s ক্লিক করুন।"
+
+#. translators: %1$ is number of seconds. %2$ is the word here that links to orders index.
+#: includes/class-cdo-wc-cloner.php:161
+msgid "here"
+msgstr "এখানে"
+
+#. translators: %s: New order URL, %d: New order ID
+#: includes/class-cdo-wc-cloner.php:190
+#: includes/class-cdo-wc-cloner.php:221
+msgid "Order successfully duplicated. New order ID: <a href=\"%1$s\">#%2$d</a>"
+msgstr "অর্ডার সফলভাবে ডুপ্লিকেট হয়েছে। নতুন অর্ডার আইডি: <a href=\"%1$s\">#%2$d</a>"
+
+#: includes/class-cdo-wc-cloner.php:203
+msgid "Nonce verification failed or order ID not set."
+msgstr "নন্স যাচাইকরণ ব্যর্থ হয়েছে বা অর্ডার আইডি সেট করা হয়নি।"
+
+#: includes/class-cdo-wc-cloner.php:373
+msgid "HPOS Status"
+msgstr "HPOS স্ট্যাটাস"
+
+#. translators: %1$ %2$ wraps a link to the settings page
+#: includes/class-cdo-wc-init.php:80
+msgid "Thanks for activating Clone / Duplicate Orders for WooCommerce."
+msgstr "Clone / Duplicate Orders for WooCommerce সক্রিয় করার জন্য ধন্যবাদ।"
+
+#. translators: %1$s is the opening <a> tag with a link to activate WooCommerce, and %2$s is the closing </a> tag.
+#: includes/class-cdo-wc-init.php:115
+msgid "Clone / Duplicate Orders for WooCommerce requires WooCommerce to be active. Please %1$s Activate WooCommerce %2$s."
+msgstr "Clone / Duplicate Orders for WooCommerce সক্রিয় থাকতে WooCommerce প্রয়োজন। অনুগ্রহ করে %1$s WooCommerce সক্রিয় করুন %2$s।"
+
+#. translators: %1$s is the opening <a> tag with a link to install WooCommerce, and %2$s is the closing </a> tag.
+#: includes/class-cdo-wc-init.php:127
+msgid "Clone / Duplicate Orders for WooCommerce requires WooCommerce to be installed and active. Please %1$s Install WooCommerce%2$s."
+msgstr "Clone / Duplicate Orders for WooCommerce ইনস্টল এবং সক্রিয় থাকতে WooCommerce প্রয়োজন। অনুগ্রহ করে %1$s WooCommerce ইনস্টল করুন %2$s।"
